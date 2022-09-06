@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 208, 255, 0.763);
+    font-size: 20px;
+}
+
+header{
+    text-align: center;
+    color: black;
+    margin-top: 3em;
+}
+
+main{
+    width: 500px;
+    margin: 2em auto;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+
+form{
+    border: 1px solid black;
+    padding: 2em;
+}
+
+label.label{
+    font-weight: bold;
+}
+
+input.input{
+    width: 100%;
+    margin-bottom: 1em;
+    outline: none;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+input#date{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+div.sexo{
+    margin: 1em 0;
+}
+
+div.games{
+    margin: 1em 0;
+}
+
+div.Horarios{
+    margin: 1em 0;
+}
+
+div.games input, div.sexo input{
+    margin-right: 1em;
+}
+
+
+
+p{
+    font-weight: bold;
+}
+
+#button{
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    background-color: rgba(0, 208, 255, 0.763);
+    color: white;
+    font-size: 18px;
+}
